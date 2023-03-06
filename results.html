@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thank You</title>
+</head>
+<body>
+	<h1>Thank you for your answer!</h1>
+	<p>Your favorite color is: <strong id="answer"></strong></p>
+	<script>
+		var answer = localStorage.getItem("answer");
+		document.getElementById("answer").innerHTML = answer;
+	</script>
+</body>
+</html>
