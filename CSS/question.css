@@ -5,6 +5,7 @@ body{
 #hud {
     display: flex;
     justify-content: space-between;
+    font-size: 6rem;
 }
 .hud-item {
 

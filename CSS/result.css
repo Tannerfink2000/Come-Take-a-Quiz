@@ -1,0 +1,12 @@
+
+body {
+    display: flex;
+}
+
+#results-text{
+    font-size: 6rem;
+}
+
+#restart-button {
+
+}

@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Thank You</title>
-	<meta charset="UTF-8" />
+  <head>
+    <title>Thank You</title>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
-</head>
-<body>
-	<div id="result-container" class="hide">
-		<p id="result-text"></p>
-	</div>
-	<div id="submit-container" class="hide">
-		<form id="initials-form">
-		  <label for="initials">Enter your initials:</label>
-		  <input type="text" id="initials" required />
-		  <button type="submit" id="submit">Submit</button>
-		</form>
-	  </div>
-	<h1>Thank you for your answer!</h1>
-	<p>Your favorite color is: <strong id="answer"></strong></p>
-	<script>
-		var answer = localStorage.getItem("answer");
-		document.getElementById("answer").innerHTML = answer;
-	</script>
-</body>
+    <link rel="stylesheet" href="./CSS/result.css" />
+  </head>
+  <body>
+    <div id="result-container" class="hide">
+      <p id="result-text">Thank you for playing!</p>
+    </div>
+    <div id="submit-container" class="hide">
+      <form id="initials-form">
+        <label for="initials">Enter your initials:</label>
+        <input type="text" id="initials" required />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <div id="highscore-container" class="hide">
+      <h1>Highscores</h1>
+      <ol id="highscore-list"></ol>
+    </div>
+    <div id="restart-container" class="hide">
+      <button id="restart-button">Play Again</button>
+    </div>
+    <script>
+      var answer = localStorage.getItem("answer");
+      document.getElementById("answer").innerHTML = answer;
+    </script>
+  </body>
 </html>
+

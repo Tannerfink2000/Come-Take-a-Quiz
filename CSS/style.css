@@ -56,4 +56,6 @@
     transform: scale(1.2);
   }
 
-  
+  .hud-item {
+    font-size: 4rem
+  }
