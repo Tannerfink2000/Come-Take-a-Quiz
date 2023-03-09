@@ -1,0 +1,57 @@
+body{
+    
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-item {
+
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#question {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.choice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px ;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 4rem;
+  }
+  
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem;
+    transition: .5s;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    width: 100%;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: greenyellow;
+}
