@@ -2,8 +2,21 @@
 <html>
 <head>
 	<title>Thank You</title>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
 </head>
 <body>
+	<div id="result-container" class="hide">
+		<p id="result-text"></p>
+	</div>
+	<div id="submit-container" class="hide">
+		<form id="initials-form">
+		  <label for="initials">Enter your initials:</label>
+		  <input type="text" id="initials" required />
+		  <button type="submit" id="submit">Submit</button>
+		</form>
+	  </div>
 	<h1>Thank you for your answer!</h1>
 	<p>Your favorite color is: <strong id="answer"></strong></p>
 	<script>
