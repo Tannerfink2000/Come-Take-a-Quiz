@@ -8,7 +8,7 @@ body{
     font-size: 6rem;
 }
 .hud-item {
-
+    display: flex;
 }
 
 .hud-prefix {

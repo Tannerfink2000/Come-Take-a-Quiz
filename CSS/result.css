@@ -1,12 +1,16 @@
 
-body {
+.results-body {
     display: flex;
+    font-size: 7rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #results-text{
     font-size: 6rem;
 }
 
-#restart-button {
-
+#restart-button:hover {
+    box-shadow: 1rem .6rem;
 }
