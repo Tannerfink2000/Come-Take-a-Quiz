@@ -20,3 +20,4 @@
     window.location.href = "question.html";
   }
   
+  localStorage.setItem("currentPage","start")

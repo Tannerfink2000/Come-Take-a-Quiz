@@ -8,27 +8,29 @@
     <link rel="stylesheet" href="./CSS/result.css" />
   </head>
   <body class="results-body">
-    <div id="result-container" class="hide">
+    <div id="result-container" >
       <p id="result-text">Thank you for playing!</p>
     </div>
-    <div id="submit-container" class="hide">
+    <div id="submit-container" >
       <form id="initials-form">
         <label for="initials">Enter your initials:</label>
         <input type="text" id="initials" required />
         <button type="submit" id="submit">Submit</button>
       </form>
     </div>
-    <div id="highscore-container" class="hide">
+    <div id="highscore-container" >
       <h1>Highscores</h1>
       <ul id="highscore-list"></ul>
     </div>
-    <div id="restart-container" class="hide">
+    <div id="restart-container" >
       <a href="/question.html" class="btn">Play Again</a>
     </div>
     <p id="answer"></p> <!-- add this line -->
-    <script>
+    <!-- <script>
       var answer = localStorage.getItem("answer");
       document.getElementById("answer").innerHTML = answer;
-    </script>
+    </script> -->
+    <script src="./JavaScript/results.js"></script>
+    
   </body>
 </html>

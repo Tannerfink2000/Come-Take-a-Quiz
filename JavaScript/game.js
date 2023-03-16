@@ -68,6 +68,7 @@ function checkAnswer(e) {
     
     if (selectedAnswer === correctAnswer) {
         score++;
+        scoreText.textContent= score * 100
     }
 
     currentQuestion++;
@@ -88,4 +89,5 @@ for (var i = 0; i < choices.length; i++) {
     choices[i].addEventListener("click", checkAnswer);
 }
 
+localStorage.setItem("currentPage","game")
 

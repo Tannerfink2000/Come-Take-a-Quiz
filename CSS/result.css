@@ -14,3 +14,7 @@
 #restart-button:hover {
     box-shadow: 1rem .6rem;
 }
+
+.hide {
+    display: none;
+}
