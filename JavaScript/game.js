@@ -51,7 +51,7 @@ function startTimer() {
 function endQuiz() {
     clearInterval(timerInterval);
     localStorage.setItem("mostRecentScore", score);
-    window.location.href = "/Assets/results.html";
+    window.location.href = "results.html";
 }
 
 function updateQuestion() {
@@ -78,7 +78,7 @@ function checkAnswer(e) {
     } else {
         var finalScore = score * 100;
         localStorage.setItem("score", finalScore);
-        window.location.href = "/Assets/results.html";
+        window.location.href = "results.html";
     }
 }
 
